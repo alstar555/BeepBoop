@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="public/style.css">
+		<title>BEEPBOOP</title>
+	</head>
+	<body>
+		<div id="mainpage">
+			<h1>WELCOME TO BEEPBOOP</h1>
+			<p id="text">1001011 01011BEE BAA B00 BEE BA B0001010 1001001</p>
+			<input type="text" placeholder="username" id="username">
+			<button id="startbtn" onclick="displaypage(0); startcall(); addOnlineUser()">START</button>
+			<img src="public/robot.jpg" alt="robot">
+		</div>
+		<div id="videopage">
+			<button id="backbtn" onclick="displaypage(1); backbtn()">⇦</button>
+			<p id="welcomemssg">hey there <span id="outputname"></span>! who we calling?</p>
+			<input type="text" placeholder="username" id="remoteusername">
+			<button id="joinbtn" onclick="joincall()">JOIN</button>
+			<p id="ringplaceholder"></p>
+			<video id="localVideo" autoplay="true"></video>
+			<button id="audiobtn" onclick="muteaudio()">♬ audio</button>
+			<button id="camerabtn" onclick="mutecam()">● cam</button>
+			<p id="usersonline">Users Online <span id="online"></span></p>
+		</div>
+	</body>
+	 <script src = "/socket.io/socket.io.js"></script>
+	<script src="public/script.js"></script>
+</html>

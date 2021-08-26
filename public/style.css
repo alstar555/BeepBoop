@@ -1,0 +1,142 @@
+#mainpage{
+	display: all;
+}
+
+#videopage{
+	display:none;
+} 
+
+body{
+	background-color: #787276; /*grey*/
+	font-family: 'Courier New', monospace;
+}
+
+h1{	
+	margin-top: 150px;
+	color: #e8bd85; /*yellow*/
+	align-content: center;
+	font-size: 100px;
+	font: bold;
+	text-align: center;
+}
+
+#text{
+	position:  absolute;
+	margin-left: 600px;
+	margin-top: 1px;
+}	
+
+input{
+	margin-left: 700px;
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 150px;
+	height:  50px;
+	border: none;
+	border-radius: 15px;
+}
+
+#username{
+	text-align: center;
+	background-color: #e8bd85;
+	font-size: 30px;
+	color: white;
+}
+
+#startbtn, #backbtn, #audiobtn, #camerabtn, #joinbtn{
+	text-align: center;
+	background-color: #e8bd85;
+	align-content: center;
+	cursor: pointer;
+	font-size: 27px;
+	border: none;
+	border-radius: 15px;
+	color:  white;
+	font-weight: bolder;
+}
+#startbtn:hover{background-color: #eda853} /*orange*/
+#backbtn:hover{background-color: #eda853}
+#backbtn{
+	position: absolute;
+	margin: 20px;
+}
+#audiobtn:hover{background-color: #eda853}
+#audiobtn{
+	position: absolute;
+	margin: 100px;
+	margin-top: 900px;
+	margin-left: 600px;
+
+}
+#camerabtn:hover{background-color: #eda853}
+#camerabtn{
+	position: absolute;
+	margin: 500px;
+	margin-top: 900px;
+	margin-left: 1100px;
+}
+#joinbtn:hover{background-color: #eda853}
+#joinbtn{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 1190px;
+}
+
+
+#welcomemssg{
+	position:  absolute;
+	margin-top: 20px;
+	margin-left: 120px;
+	color: #e8bd85; /*yellow*/
+	align-content: center;
+	font-size: 25px;
+	font: bold;
+	text-align: right;
+}
+
+img{
+	position:  absolute;
+	width: 500px;
+	margin-top: -50px;
+
+}
+
+#localVideo {
+	position:  absolute;
+	width: 400px;
+	height: 275px;
+	background-color: white;
+	margin-left: 60px;
+	margin-top: 70px;
+	border-radius: 15px;
+	transform: rotateY(180deg);
+}
+
+#remoteusername{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 1000px;
+	text-align: center;
+	background-color: #e8bd85;
+	font-size: 30px;
+	color: white;
+}
+
+#usersonline{
+	color: #e8bd85; /*yellow*/
+	position: absolute;
+	margin-top: 400px;
+	margin-left:40px ;
+	font-size: 25px;
+	font: bolder;
+	text-align: center;
+	text-shadow: 2px 2px 5px #eda853;
+}
+
+#ringplaceholder{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 1300px;;
+}
+
+
