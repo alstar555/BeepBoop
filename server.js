@@ -39,8 +39,8 @@ io.on('connection', function(socket){
 
 	socket.on('ice-candidate', incoming=>{
 		io.to(incoming.target).emit('ice-candidate', incoming-candidate);
-	})
-})
+	});
+});
 
 
 server.listen(PORT, ()=>console.log(`listening on port ${PORT}...`));
